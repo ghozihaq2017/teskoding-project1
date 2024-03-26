@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+  --white2: #e5e5e5;
+  --white3: #cccccc;
+  --blue: #0194f3;
+  --blue2: #015a8a;
+  --blue3: #45abff;
+  --blue4: #0062b3;
+  --navy: #00253f;
+  --navy1: #004465;
+  --darkgrey: #434343;
+  --darkmode-bg: #121212;
+  --darkmode-text: #ffffff;
+  --darkmode-accent: #1a1a1a;
+  --sepiamode-bg: #c0a080;
+  --sepiamode-text: #000000;
+  --sepia-accent: #8b4513;
+  --font-color: #434343;
+  --background-color: #eee;
+  --accent-color: #45abff;
+}
+
+[data-theme='dark'] {
+  --font-color: #eee;
+  --background-color: #121212;
+  --accent-color: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background 0.3s ease-in;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: var(--font-color);
+}
+
+.hamburger {
+  position: relative;
+  width: 35px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  margin-right: 2rem;
+  z-index: 100;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--font-color);
+  margin: 6px 0px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* Hamburger Button */
+.hamburger.is-active:before {
+  -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+.hamburger.is-active:after {
+  -webkit-transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 5rem;
+  left: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: none;
+  z-index: 98;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.mobile-nav.is-active {
+  left: 0%;
+}
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 70%;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--font-color);
+  text-decoration: none;
+  font-size: 2rem;
+}
+.mobile-nav a:hover {
+  background-color: var(--navy1);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+/* AKHIR HAMBURGER MENU */
+
+/* Footer */
+footer {
+  min-height: 10vh;
+  position: relative;
+  background: var(--accent-color);
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 0.5fr;
+  column-gap: 10px;
+  row-gap: 30px;
+  padding: 50px;
+  padding-top: 3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    grid-template-columns: 1.5fr 2fr;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Box */
+section.our-package .container-category .box {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+section.our-package .content {
+  background: rgba(0, 37, 63, 0.5);
+}
+
+section.our-package .box:hover .content {
+  top: 20%;
+}
+
+/* --font-color: #eee;
+  --background-color: #121212;
+  --accent-color: #1a1a1a; */
+
+/* SET ALL COLOR */
+
+nav,
+.box .tag,
+.bttn button,
+.toggle-nav {
+  background-color: var(--accent-color);
+}
+
+nav h5,
+nav ul a,
+.hero button,
+footer form label,
+footer form button,
+footer form input::placeholder,
+.footer-links a,
+.footer-partners span,
+.box .tag h5,
+.bttn button,
+table tr th {
+  color: var(--font-color);
+}
+
+section.home .tripwise-content,
+section.our-package {
+  background-color: var(--background-color);
+}
+
+.hero button {
+  background-color: var(--accent-color);
+  color: var(--font-color);
+  background: linear-gradient(90deg, var(--accent-color) 15.1%, var(--accent-color) 85.42%);
+}
+
+table tr th:hover span {
+  color: var(--accent-color);
+}
