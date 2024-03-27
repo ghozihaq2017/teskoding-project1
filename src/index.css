@@ -22,12 +22,14 @@
   --font-color: #434343;
   --background-color: #eee;
   --accent-color: #45abff;
+  --table-zebra: #f2f2f2;
 }
 
 [data-theme='dark'] {
   --font-color: #eee;
   --background-color: #121212;
   --accent-color: #1a1a1a;
+  --table-zebra: #191e24;
 }
 
 * {
@@ -42,6 +44,8 @@ body {
   font-size: 12px;
   color: var(--font-color);
 }
+
+/* Hamburger Button */
 
 .hamburger {
   position: relative;
@@ -70,7 +74,6 @@ body {
   transition: 0.4s;
 }
 
-/* Hamburger Button */
 .hamburger.is-active:before {
   -webkit-transform: rotate(-45deg) translate(-8px, 6px);
   transform: rotate(-45deg) translate(-8px, 6px);
@@ -136,9 +139,9 @@ body {
     display: block;
   }
 }
-/* AKHIR HAMBURGER MENU */
+/* Akhir Hamburger Button*/
 
-/* Footer */
+/* Awal Footer */
 footer {
   min-height: 10vh;
   position: relative;
@@ -164,8 +167,9 @@ footer {
     justify-content: center;
   }
 }
+/* Akhir Footer */
 
-/* Box */
+/* Awal Box */
 section.our-package .container-category .box {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -177,13 +181,9 @@ section.our-package .content {
 section.our-package .box:hover .content {
   top: 20%;
 }
+/* Awal Box */
 
-/* --font-color: #eee;
-  --background-color: #121212;
-  --accent-color: #1a1a1a; */
-
-/* SET ALL COLOR */
-
+/* Set All Color for Darkmode */
 nav,
 .box .tag,
 .bttn button,
@@ -221,3 +221,8 @@ section.top-25 {
 table tr th:hover span {
   color: var(--accent-color);
 }
+
+.table-zebra tbody tr:nth-child(even) {
+  background-color: var(--table-zebra);
+}
+/* End Set All Color for Darkmode */
