@@ -1,7 +1,8 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
+
+// Component Pages
 import HomePage from './pages/HomePage';
 import OurPackage from './pages/OurPackagePage';
 import Top25Page from './pages/Top25Page';

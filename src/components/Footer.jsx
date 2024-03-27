@@ -1,5 +1,6 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
+
+//assets
 import LogoPartner1 from '../assets/img/logo-unsplash.png';
 import LogoPartner2 from '../assets/img/logo-freepik.png';
 import LogoPartner3 from '../assets/img/logo-google-fonts.png';

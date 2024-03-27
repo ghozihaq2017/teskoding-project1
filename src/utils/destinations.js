@@ -1,3 +1,4 @@
+// Data Top Destination In Indonesia
 const destinations = [
   {
     id: 1,

@@ -1,7 +1,10 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
-import HeaderVideo from '../assets/video/back-header.mp4';
+
+// Component
 import Navigation from './Navigation';
+
+// Assets
+import HeaderVideo from '../assets/video/back-header.mp4';
 
 function Header() {
   return (

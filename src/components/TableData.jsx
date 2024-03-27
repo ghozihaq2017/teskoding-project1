@@ -1,6 +1,9 @@
-/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
+
+// Utils
 import destinations from '../utils/destinations';
+
+//Assets
 import { LuArrowUpDown } from 'react-icons/lu';
 
 function TableData() {

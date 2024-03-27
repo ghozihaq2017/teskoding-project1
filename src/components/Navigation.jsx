@@ -1,10 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from 'react';
-import Logo from '../assets/img/logo2.png';
-// import { CiDark } from 'react-icons/ci';
+import { Link } from 'react-router-dom';
+
+// Components
 import NavbarMobile from './NavbarMobile';
 import ToggleTheme from './ToggleTheme';
-import { Link } from 'react-router-dom';
+
+// Assets
+import Logo from '../assets/img/logo2.png';
 
 function Navigation() {
   useEffect(() => {

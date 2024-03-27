@@ -1,4 +1,7 @@
+// Utills
 import { ThemeConsumer } from '../context/ThemeContext';
+
+// Assets
 import { FaMoon, FaSun } from 'react-icons/fa';
 
 function ToggleTheme() {

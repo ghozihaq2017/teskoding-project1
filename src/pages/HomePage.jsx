@@ -1,9 +1,12 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
+
+// Componenent
 import Header from '../components/Header';
-import Logo from '../assets/img/logo2.png';
-import GalleryAbout from '../components/GalleryAbout';
 import Footer from '../components/Footer';
+import GalleryAbout from '../components/GalleryAbout';
+
+// Assets
+import Logo from '../assets/img/logo2.png';
 
 function HomePage() {
   return (

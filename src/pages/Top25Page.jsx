@@ -1,5 +1,6 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
+
+// Components
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import TableData from '../components/TableData';
