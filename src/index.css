@@ -201,12 +201,14 @@ footer form input::placeholder,
 .footer-partners span,
 .box .tag h5,
 .bttn button,
-table tr th {
+table tr th,
+section.top-25 h2 {
   color: var(--font-color);
 }
 
 section.home .tripwise-content,
-section.our-package {
+section.our-package,
+section.top-25 {
   background-color: var(--background-color);
 }
 
