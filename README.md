@@ -21,7 +21,7 @@ In addition this project has 4 environments defined for different purposes:
 
 ## Project Website
 
-<a href="tes-code-tripwise.netlify.app/" target="_blank">**Visit Now** ✈️</a>
+<a href="https://tes-code-tripwise.netlify.app" target="_blank">**Visit Now** ✈️</a>
 
 ## Pages
 
@@ -31,12 +31,12 @@ In addition this project has 4 environments defined for different purposes:
 
 ## Build with
 
-[![React](https://img.shields.io/badge/react%20-%2307C8F9.svg?&style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)&nbsp;
-[![Vite](https://img.shields.io/badge/vite%20-%23007ACC.svg?&style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)nbsp;
+[![React](https://img.shields.io/badge/react%20-%2307C8F9.svg?&style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/) &nbsp;
+[![Vite](https://img.shields.io/badge/vite%20-%23007ACC.svg?&style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)&nbsp;
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://en.wikipedia.org/wiki/HTML)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://en.wikipedia.org/wiki/CSS)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://en.wikipedia.org/wiki/JavaScript)&nbsp;
-[![Tailwind CSS](https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)nbsp;
+[![Tailwind CSS](https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)&nbsp;
 
 ### Library
 
