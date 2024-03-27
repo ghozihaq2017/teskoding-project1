@@ -11,6 +11,7 @@ import Logo from '../assets/img/logo2.png';
 
 function Navigation() {
   useEffect(() => {
+    // Action to Hamburger Nav
     const menu_btn = document.querySelector('.hamburger');
     const mobile_menu = document.querySelector('.mobile-nav');
 
@@ -35,26 +36,27 @@ function Navigation() {
       id="nav"
       className="top-0 w-screen min-h-[70px] z-10 flex justify-between items-center fixed"
     >
-      <a href="#" className="flex justify-center items-center no-underline ml-[2rem]">
+      <Link href="#" to="/" className="flex justify-center items-center no-underline ml-[2rem]">
         <img src={Logo} width="40px" height="40px" alt="logo-tripwise" />
         <h5 className="text-[1.7rem] font-bold  lowercase tracking-[1px]">Tripwise</h5>
-      </a>
+      </Link>
       <ul className="mt-[0.5rem] gap-[30px] pl-0 xl:flex justify-center hidden">
         <li className="list-none hover:font-bold text-center transition duration-100">
-          <Link to="/">
-            <a className="uppercase  tracking-[5px] no-underline text-[1rem] flex justify-center items-center">
-              Home
-            </a>
+          <Link
+            to="/"
+            className="uppercase  tracking-[5px] no-underline text-[1rem] flex justify-center items-center"
+          >
+            Home
           </Link>
         </li>
         <li className="list-none hover:font-bold text-center transition duration-100">
-          <Link to="/our-package">
-            <a className="uppercase  tracking-[5px] no-underline text-[1rem]">Our Package</a>
+          <Link to="/our-package" className="uppercase  tracking-[5px] no-underline text-[1rem]">
+            Our Package
           </Link>
         </li>
         <li className="list-none hover:font-bold text-center transition duration-100">
-          <Link to="/top-25">
-            <a className="uppercase  tracking-[5px] no-underline text-[1rem]">Top 25</a>
+          <Link to="/top-25" className="uppercase  tracking-[5px] no-underline text-[1rem]">
+            Top 25
           </Link>
         </li>
       </ul>

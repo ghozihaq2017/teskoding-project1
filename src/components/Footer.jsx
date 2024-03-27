@@ -55,8 +55,7 @@ function Footer() {
           version="1.1"
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"
-          // eslint-disable-next-line react/no-unknown-property
-          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 310 310"
           xmlSpace="preserve"
         >

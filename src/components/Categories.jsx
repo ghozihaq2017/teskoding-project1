@@ -24,7 +24,7 @@ function Categories({ data, title }) {
 
 // Prop Validation
 Categories.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.object).isRequired,
+  data: PropTypes.array.isRequired,
   title: PropTypes.string.isRequired,
 };
 
